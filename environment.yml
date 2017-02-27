@@ -1,0 +1,13 @@
+name: example_project
+channels: !!python/tuple
+- conda-forge
+- defaults
+dependencies:
+- conda-forge::ipython=5.3.0
+- conda-forge::jupyter=1.0.0
+- conda-forge::matplotlib=2.0.0
+- conda-forge::notebook=4.4.1
+- conda-forge::pandas=0.19.2
+- conda-forge::python=3.5.3
+- conda-forge::setuptools
+- numpy=1.12.0
